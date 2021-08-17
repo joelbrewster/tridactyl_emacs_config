@@ -6,6 +6,8 @@ unbind n
 unbind p
 unbind b
 unbind v
+unbind F
+unbind H
 unbind <C-u>
 unbind <C-x>
 unbind <C-g>
@@ -48,7 +50,7 @@ bind <C-c><C-n> followpage next
 bind <C-c><C-p> followpage prev
 
 " History
-bind F forward
+bind H forward
 bind B back
 
 " Bookmarks
