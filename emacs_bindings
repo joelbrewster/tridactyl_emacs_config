@@ -1,5 +1,7 @@
 " Unbinding keys used both emacs and vim
 unbind w
+unbind n
+unbind p
 unbind <C-u>
 unbind <C-x>
 unbind <C-g>
@@ -16,6 +18,8 @@ bind <A->> scrollto 100
 bind <A-<> scrollto 0
 bind <C-n> scrollline 10
 bind <C-p> scrollline -10
+bind n scrollline 10
+bind p scrollline -10
 bind <C-u><C-Space> jumpprev
 
 " Commands
