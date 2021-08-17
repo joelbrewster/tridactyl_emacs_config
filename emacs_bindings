@@ -49,8 +49,12 @@ bind <C-x>rm current_url bmark
 " Tabs
 bind <A-n> tabnext
 bind <A-p> tabprev
+bind <C-x>n tabnext
+bind <C-x>p tabprev
 bind <A-N> tabmove +1
 bind <A-P> tabmove -1
+bind <C-x>N tabmove +1
+bind <C-x>P tabmove -1
 bind <C-x>b fillcmdline buffer
 bind <C-x>k tabclose
 bind <C-x>0 tabclose

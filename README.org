@@ -14,7 +14,7 @@ Also you can just copy file content to your config directly.
 
 Second option is rather shorter - execute command 
 #+begin_src 
-source --url https://raw.githubusercontent.com/jumper047/tridactyl_emacs_config/main/emacs_bindings
+source --url https://raw.githubusercontent.com/joelbrewster/tridactyl_emacs_config/main/emacs_bindings
 #+end_src
 Later you can update your bindings with M-x 'emacs-bindings-update'
 
