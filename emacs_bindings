@@ -1,3 +1,5 @@
+set theme dark
+
 " Unbinding keys used both emacs and vim
 unbind w
 unbind n
