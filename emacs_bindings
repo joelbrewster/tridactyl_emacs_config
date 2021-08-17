@@ -2,6 +2,8 @@
 unbind w
 unbind n
 unbind p
+unbind b
+unbind v
 unbind <C-u>
 unbind <C-x>
 unbind <C-g>
@@ -12,8 +14,10 @@ bind --mode=browser <C-g> escapehatch
 
 " Navigation
 bind <C-v> scrollpage 1
+bind v scrollpage 1
 bind <A-v> scrollpage -1
 bind <Backspace> scrollpage -1
+bind b scrollpage -1
 bind <A->> scrollto 100
 bind <A-<> scrollto 0
 bind <C-n> scrollline 10
