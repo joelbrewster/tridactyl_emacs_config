@@ -1,4 +1,5 @@
 set theme dark
+unbind --mode=normal
 
 " Unbinding keys used both emacs and vim
 unbind w
