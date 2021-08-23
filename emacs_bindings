@@ -30,6 +30,8 @@ bind <C-p> scrollline -10
 bind n scrollline 10
 bind p scrollline -10
 bind <C-u><C-Space> jumpprev
+bind <C-x>[ scrollto 0
+bind <C-x>] scrollto 99999999999
 
 " Commands
 bind <A-x> fillcmdline_notrail
