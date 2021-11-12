@@ -48,7 +48,7 @@ bind <C-u>f hint -b
 bind F hint -b
 bind --mode=hint <C-g> hint.reset
 bind c hint -y
-bind w clipboard yank
+bind <C-w> clipboard yank
 bind <C-c><C-n> followpage next
 bind <C-c><C-p> followpage prev
 
