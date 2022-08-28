@@ -19,11 +19,6 @@ bind --mode=browser <C-g> escapehatch
 
 " Navigation
 bind <C-v> scrollpage 1
-bind v scrollpage 1
-bind <A-v> scrollpage -1
-bind <Backspace> scrollpage -1
-bind b scrollpage -1
-bind <A->> scrollto 100
 bind <A-<> scrollto 0
 bind <C-n> scrollline 10
 bind <C-p> scrollline -10
@@ -53,8 +48,12 @@ bind <C-c><C-n> followpage next
 bind <C-c><C-p> followpage prev
 
 " History
-bind H forward
+bind F forward
+bind r forward
 bind B back
+bind l back
+bind u urlparent
+bind t urlroot
 
 " Bookmarks
 bind M current_url bmark
