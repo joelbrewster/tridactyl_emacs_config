@@ -39,8 +39,10 @@ bind --mode=ex <C-r> findnext -1
 
 " Hinting and navigation
 bind f hint
+bind <A-o> hint
 bind <C-u>f hint -b
 bind F hint -b
+bind <A-O> hint -b
 bind --mode=hint <C-g> hint.reset
 bind c hint -y
 bind <C-w> clipboard yank
