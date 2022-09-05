@@ -82,6 +82,7 @@ bind <C-x>tp pin
 bind <C-x>tm mute toggle
 bind <C-x>u undo
 bind <C-/> undo
+bind <C-x>5c tabdetach
 
 " Pages
 bind R reload
